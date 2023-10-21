@@ -1,12 +1,12 @@
 {
-  "name": "node-library-boilerplate",
+  "name": "tailwind-stacks-rows",
   "version": "0.0.0-development",
   "description": "Basic setup for a Typescript Node.js (or runtime agnostic) library.",
   "main": "dist/index.js",
   "module": "dist/index-esm.mjs",
   "repository": {
     "type": "git",
-    "url": "https://github.com/davewasmer/node-library-boilerplate.git"
+    "url": "https://github.com/davewasmer/tailwind-stacks-rows.git"
   },
   "scripts": {
     "build": "pnpm run clean && rollup -c",
