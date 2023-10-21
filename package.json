@@ -1,12 +1,17 @@
 {
   "name": "node-library",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index-esm.mjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davewasmer/node-library-boilerplate.git"
+  },
   "scripts": {
     "build": "pnpm run clean && rollup -c",
-    "clean": "rm -rf dist"
+    "clean": "rm -rf dist",
+    "semantic-release": "semantic-release"
   },
   "keywords": [],
   "author": "",
@@ -22,6 +27,7 @@
     "prettier": "^3.0.3",
     "rollup": "^4.1.4",
     "tslib": "^2.6.2",
-    "typescript": "^5.2.2"
+    "typescript": "^5.2.2",
+    "semantic-release": "^22.0.5"
   }
 }
